@@ -1,0 +1,44 @@
+# Eclipse, IntelliJ IDEA, VS Code, and other IDE-specific files
+/.project
+/.classpath
+/.idea/
+/*.iml
+*.swp
+*.swo
+*.vscode/
+
+# Maven-specific files
+/target/
+/*.log
+dependency-reduced-pom.xml
+.mvn/
+mvnw*
+!/.mvn/wrapper/maven-wrapper.properties
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.out
+*.bak
+*.tmp
+*.pid
+*.seed
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore JAR/WAR/EAR files
+*.jar
+*.war
+*.ear
+
+# Ignore build tool caches and outputs
+/.gradle/
+/build/
+
+# Ignore environment or secret files
+.env
+*.env
